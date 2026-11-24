@@ -1,0 +1,137 @@
+{
+ "config": {
+  "steps": 2500,
+  "layers": 8,
+  "d_model": 384,
+  "heads": 6,
+  "context": 256,
+  "batch": 48,
+  "lr": 0.0006,
+  "dropout": 0.1
+ },
+ "train_bytes": 1585903,
+ "test_bytes": 591046,
+ "parameters": 14380800,
+ "seeds": [
+  1,
+  2
+ ],
+ "test_bits_per_byte": {
+  "values": [
+   1.934,
+   1.9564
+  ],
+  "mean": 1.9452,
+  "min": 1.934,
+  "max": 1.9564
+ },
+ "train_bits_per_byte": {
+  "values": [
+   1.176,
+   1.1389
+  ],
+  "mean": 1.1574
+ },
+ "runs": [
+  {
+   "seed": 1,
+   "train_bits_per_byte": 1.1759616361593193,
+   "test_bits_per_byte": 1.9339930694689826,
+   "test_perplexity": 3.8211133893229805,
+   "parameters": 14380800,
+   "seconds": 426.4,
+   "history": [
+    {
+     "step": 250,
+     "loss": 2.41
+    },
+    {
+     "step": 500,
+     "loss": 1.6307
+    },
+    {
+     "step": 750,
+     "loss": 1.3499
+    },
+    {
+     "step": 1000,
+     "loss": 1.2139
+    },
+    {
+     "step": 1250,
+     "loss": 1.1118
+    },
+    {
+     "step": 1500,
+     "loss": 1.0498
+    },
+    {
+     "step": 1750,
+     "loss": 1.0
+    },
+    {
+     "step": 2000,
+     "loss": 0.9498
+    },
+    {
+     "step": 2250,
+     "loss": 0.904
+    },
+    {
+     "step": 2500,
+     "loss": 0.8792
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "train_bits_per_byte": 1.1389068668926121,
+   "test_bits_per_byte": 1.956398910104353,
+   "test_perplexity": 3.8809205808149527,
+   "parameters": 14380800,
+   "seconds": 429.6,
+   "history": [
+    {
+     "step": 250,
+     "loss": 2.4088
+    },
+    {
+     "step": 500,
+     "loss": 1.6341
+    },
+    {
+     "step": 750,
+     "loss": 1.3581
+    },
+    {
+     "step": 1000,
+     "loss": 1.2167
+    },
+    {
+     "step": 1250,
+     "loss": 1.1266
+    },
+    {
+     "step": 1500,
+     "loss": 1.0519
+    },
+    {
+     "step": 1750,
+     "loss": 0.9825
+    },
+    {
+     "step": 2000,
+     "loss": 0.944
+    },
+    {
+     "step": 2250,
+     "loss": 0.9081
+    },
+    {
+     "step": 2500,
+     "loss": 0.8758
+    }
+   ]
+  }
+ ]
+}

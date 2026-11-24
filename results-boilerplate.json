@@ -1,0 +1,7 @@
+{
+ "train_8grams": 238708,
+ "test_8grams": 91162,
+ "test_8grams_also_in_train": 969,
+ "share_of_test_grams_seen_in_train": 0.0106,
+ "note": "Shared n-grams are the cost of not stripping navigation and footer boilerplate; the page-level split prevents whole-page leakage but not sentence-level reuse."
+}

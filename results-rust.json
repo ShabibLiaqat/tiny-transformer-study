@@ -1,0 +1,13 @@
+{
+ "shape": {
+  "batch": 4,
+  "heads": 8,
+  "seq": 256,
+  "head_dim": 64
+ },
+ "rust_ms_median": 10.58,
+ "torch_cpu_ms": 1.182,
+ "torch_threads": 8,
+ "max_abs_difference_vs_torch": 7.748603820800781e-07,
+ "note": "Rust kernel: rayon over (batch, head) with blocked value accumulation; correct to 7.7e-7 against PyTorch, and still ~9x slower than PyTorch's tuned CPU kernel. Parallelising barely moved it (12.4 -> 10.6 ms) because the score loop is memory-bound and unvectorised, not thread-bound."
+}

@@ -1,0 +1,76 @@
+{
+ "device": "NVIDIA A10 (Modal)",
+ "parameters": 14380800,
+ "config": {
+  "steps": 2500,
+  "layers": 8,
+  "d_model": 384,
+  "heads": 6,
+  "context": 256,
+  "batch": 48,
+  "lr": 0.0006,
+  "dropout": 0.1
+ },
+ "corpus_bytes": 2176949,
+ "train_bytes": 1585903,
+ "test_bytes": 591046,
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "baselines": {
+  "unigram_bits_per_byte": 4.8694,
+  "bigram_bits_per_byte": 3.7416
+ },
+ "train_bits_per_byte": 1.1555,
+ "test_bits_per_byte": 1.9369,
+ "test_bits_per_byte_range": [
+  1.9204,
+  1.9564
+ ],
+ "test_perplexity": 3.8288,
+ "history": [
+  {
+   "step": 250,
+   "loss": 2.41
+  },
+  {
+   "step": 500,
+   "loss": 1.6307
+  },
+  {
+   "step": 750,
+   "loss": 1.3499
+  },
+  {
+   "step": 1000,
+   "loss": 1.2139
+  },
+  {
+   "step": 1250,
+   "loss": 1.1118
+  },
+  {
+   "step": 1500,
+   "loss": 1.0498
+  },
+  {
+   "step": 1750,
+   "loss": 1.0
+  },
+  {
+   "step": 2000,
+   "loss": 0.9498
+  },
+  {
+   "step": 2250,
+   "loss": 0.904
+  },
+  {
+   "step": 2500,
+   "loss": 0.8792
+  }
+ ],
+ "note": "Three seeds, page-level split with near-duplicate pages removed; values are means."
+}

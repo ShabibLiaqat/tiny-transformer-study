@@ -1,0 +1,6 @@
+{
+ "unigram_bits_per_byte": 4.8694,
+ "bigram_bits_per_byte": 3.7416,
+ "train_bytes": 1585903,
+ "test_bytes": 591046
+}

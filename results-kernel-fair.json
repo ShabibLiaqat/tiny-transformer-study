@@ -1,0 +1,22 @@
+{
+ "device": "NVIDIA A10",
+ "shape": {
+  "batch": 8,
+  "heads": 8,
+  "context": 512,
+  "head_dim": 64
+ },
+ "storage_dtype": "float16 inputs, float32 accumulation inside the kernel",
+ "torch_sdpa_fp16_ms": 0.0688,
+ "torch_sdpa_fp32_ms": 0.454,
+ "triton": {
+  "ieee_64": {
+   "max_abs_diff_vs_fp32_reference": 0.0009608268737792969,
+   "millis": 17.3271
+  },
+  "tf32_128": {
+   "max_abs_diff_vs_fp32_reference": 0.0012135505676269531,
+   "millis": 0.1812
+  }
+ }
+}

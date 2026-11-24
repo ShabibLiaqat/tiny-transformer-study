@@ -1,0 +1,25 @@
+{
+ "checkpoint": "model-pagesplit.pt",
+ "context": 256,
+ "windows": 24,
+ "probes": [
+  {
+   "task": "current byte is a letter (easy)",
+   "positive_rate": 0.7912,
+   "probe_accuracy": 0.9645,
+   "class_prior": 0.7912,
+   "lift": 0.1733,
+   "control_accuracy": 0.7917,
+   "control_lift": 0.0005
+  },
+  {
+   "task": "current byte sits inside a URL (structural)",
+   "positive_rate": 0.0259,
+   "probe_accuracy": 0.979,
+   "class_prior": 0.9741,
+   "lift": 0.0049,
+   "control_accuracy": 0.9741,
+   "control_lift": 0.0
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "corpus_bytes": 350882,
+ "train_bytes": 315793,
+ "test_bytes": 35089,
+ "parameters": 836352,
+ "config": {
+  "d_model": 128,
+  "heads": 4,
+  "layers": 4,
+  "context": 96,
+  "batch": 32,
+  "steps": 1600,
+  "swiglu": false,
+  "seed": 7,
+  "lr": 0.0003
+ },
+ "baselines": {
+  "unigram_bits_per_byte": 4.922856007859908,
+  "bigram_bits_per_byte": 4.319876785552923
+ },
+ "train_bits_per_byte": 2.3880508669911706,
+ "test_bits_per_byte": 3.341094274591282,
+ "train_perplexity": 5.234496842086724,
+ "test_perplexity": 10.133736208970191,
+ "history": [
+  {
+   "step": 1,
+   "loss": 5.5743
+  },
+  {
+   "step": 100,
+   "loss": 4.1026
+  },
+  {
+   "step": 200,
+   "loss": 2.9102
+  },
+  {
+   "step": 300,
+   "loss": 2.5789
+  },
+  {
+   "step": 400,
+   "loss": 2.4374
+  },
+  {
+   "step": 500,
+   "loss": 2.3364
+  },
+  {
+   "step": 600,
+   "loss": 2.2384
+  },
+  {
+   "step": 700,
+   "loss": 2.1417
+  },
+  {
+   "step": 800,
+   "loss": 2.0371
+  },
+  {
+   "step": 900,
+   "loss": 1.9535
+  },
+  {
+   "step": 1000,
+   "loss": 1.9008
+  },
+  {
+   "step": 1100,
+   "loss": 1.8388
+  },
+  {
+   "step": 1200,
+   "loss": 1.8058
+  },
+  {
+   "step": 1300,
+   "loss": 1.7607
+  },
+  {
+   "step": 1400,
+   "loss": 1.739
+  },
+  {
+   "step": 1500,
+   "loss": 1.735
+  },
+  {
+   "step": 1600,
+   "loss": 1.7125
+  }
+ ],
+ "wall_clock_seconds": 818.8
+}

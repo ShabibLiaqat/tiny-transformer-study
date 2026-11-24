@@ -1,0 +1,10 @@
+{
+ "pages_read": 221,
+ "pages_kept": 221,
+ "pages_dropped": 0,
+ "train_pages": 185,
+ "test_pages": 36,
+ "train_chars": 1559416,
+ "test_chars": 578390,
+ "dropped": []
+}

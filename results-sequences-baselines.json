@@ -1,0 +1,41 @@
+{
+ "valid": {
+  "predictions": 6454,
+  "popularity": {
+   "top1": 0.0012,
+   "top5": 0.0074,
+   "top10": 0.0118
+  },
+  "markov": {
+   "top1": 0.009,
+   "top5": 0.0248,
+   "top10": 0.0363
+  }
+ },
+ "future": {
+  "predictions": 15587,
+  "popularity": {
+   "top1": 0.0032,
+   "top5": 0.0132,
+   "top10": 0.0234
+  },
+  "markov": {
+   "top1": 0.0112,
+   "top5": 0.0298,
+   "top10": 0.043
+  }
+ },
+ "cold": {
+  "predictions": 22243,
+  "popularity": {
+   "top1": 0.0022,
+   "top5": 0.0116,
+   "top10": 0.0215
+  },
+  "markov": {
+   "top1": 0.0183,
+   "top5": 0.0445,
+   "top10": 0.0602
+  }
+ }
+}

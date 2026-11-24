@@ -1,0 +1,15 @@
+﻿__pycache__/
+*.pyc
+data/corpus.txt
+train.log
+train-large.log
+gpu-train.log
+triton-kernel.log
+rust-bench.log
+gh-login.log
+fetch-more.log
+rust-kernel/target/
+*.pt
+*.log
+model-large.pt
+results-large.json
